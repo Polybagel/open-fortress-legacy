@@ -1,95 +1,95 @@
 # NOTENOTE: This is because you need to manually edit the gameinfo because FileSystem stinky
-gameinfo.txt
+#gameinfo.txt
 
 # cache
-cache/*
-luacache/*
-maps/soundcache/*
-maps/graphs/*
-materials/temp/*
-sound/temp/*
-sound.cache
-*.sound.cache
-modelsounds.cache
-voice_ban.dt
+#cache/*
+#luacache/*
+#maps/soundcache/*
+#maps/graphs/*
+#materials/temp/*
+#sound/temp/*
+#sound.cache
+#*.sound.cache
+#modelsounds.cache
+#voice_ban.dt
 
 # debug symbols
-bin/*.dbg
-bin/*.pdb
-*.dbg
-*.pdb
+#bin/*.dbg
+#bin/*.pdb
+#*.dbg
+#*.pdb
 
 # crash dumps
-*.dmp
+#*.dmp
 
 # config files
-cfg/sourcemod/*
-cfg/autoexec.cfg
-cfg/autoexec_user.cfg
-cfg/banned_ip.cfg
-cfg/banned_user.cfg
-cfg/config.cfg
-cfg/server_blacklist.txt
-cfg/server.cfg
-cfg/user.scr
-cfg/settings.scr
-settings/admins.txt
-ServerConfig.vdf
+#cfg/sourcemod/*
+#cfg/autoexec.cfg
+#cfg/autoexec_user.cfg
+#cfg/banned_ip.cfg
+#cfg/banned_user.cfg
+#cfg/config.cfg
+#cfg/server_blacklist.txt
+#cfg/server.cfg
+#cfg/user.scr
+#cfg/settings.scr
+#settings/admins.txt
+#ServerConfig.vdf
 
 # logs
-logs/*
-console.log
+#logs/*
+#console.log
 
 # demo records
-*.dem
+#*.dem
 
 # custom content
-custom/*
+#custom/*
 
 # user stuff
-cfg/pet.txt
-download/*
-downloadlists/*
-SAVE/*
-screenshots/*
-demoheader.tmp
-stats.txt
-gamestate.txt
-voice_ban.dt
-tf2_playerstats.dmx
-ep1_playerstats.dmx
-ep2_playerstats.dmx
-cstrike_playerstats.dmx
-media/viewed.res
-custom/*
+#cfg/pet.txt
+#download/*
+#downloadlists/*
+#SAVE/*
+#screenshots/*
+#demoheader.tmp
+#stats.txt
+#gamestate.txt
+#voice_ban.dt
+#tf2_playerstats.dmx
+#ep1_playerstats.dmx
+#ep2_playerstats.dmx
+#cstrike_playerstats.dmx
+#media/viewed.res
+#custom/*
 
 # content source
-materialsrc/*
-modelsrc/*
-mapsrc/*
-soundsrc/*
+#materialsrc/*
+#modelsrc/*
+#mapsrc/*
+#soundsrc/*
 
 # source plugins
-addons/*
+#addons/*
 
 # wtf
-_mdldecompile.lnk
-push.bat
-run.bat
-desktop.ini
-.svn
+#_mdldecompile.lnk
+#push.bat
+#run.bat
+#desktop.ini
+#.svn
 
 # apparently this is for stewsta's server only
 # since path for demos is specified with tv_record 
-demos/*
+#demos/*
 
 # faceposer stuff
-media/viewed.res
-media\viewed.res
+#media/viewed.res
+#media\viewed.res
 
 # sprays
-materials/vgui/logos/ui/*
-materials/vgui/logos/*
-gameinfo.txt
-steam.inf
-maps/dm_jkja_ffa2_new.bsp
+#materials/vgui/logos/ui/*
+#materials/vgui/logos/*
+#gameinfo.txt
+#steam.inf
+#maps/dm_jkja_ffa2_new.bsp

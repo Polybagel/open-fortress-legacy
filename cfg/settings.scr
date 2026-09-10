@@ -1,0 +1,149 @@
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+//DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
+// Multiplayer options script
+//
+// Format:
+//  Version [float]
+//  Options description followed by 
+//  Options defaults
+//
+// Option description syntax:
+//
+//  "cvar" { "Prompt" { type [ type info ] } { default } }
+//
+//  type = 
+//   BOOL   (a yes/no toggle)
+//   STRING
+//   NUMBER
+//   LIST
+//
+// type info:
+// BOOL                 no type info
+// NUMBER       min max range, use -1 -1 for no limits
+// STRING       no type info
+// LIST          delimited list of options value pairs
+//
+//
+// default depends on type
+// BOOL is "0" or "1"
+// NUMBER is "value"
+// STRING is "value"
+// LIST is "index", where index "0" is the first element of the list
+
+
+// Half-Life Server Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Thu Sep 10 00:23:03 AM
+//
+//
+// Cvar	-	Setting
+
+VERSION 1.0
+
+DESCRIPTION SERVER_OPTIONS
+{
+	"hostname"
+	{
+		"#Valve_Hostname"
+		{ STRING }
+		{ "Open Fortress" }
+	}
+
+	"maxplayers"
+	{
+		"#Valve_Max_Players"
+		{ NUMBER 1 255 }
+		{ "24" }
+	}
+
+	"sv_password"
+	{
+		"#Valve_Server_Password"
+		{ STRING }
+		{ "" }
+	}
+
+	"mp_fraglimit"
+	{
+		"#TF_Fraglimit"
+		{ NUMBER 0 -1 }
+		{ "25" }
+	}
+
+	"mp_timelimit"
+	{
+		"#TF_Timelimit"
+		{ NUMBER 0 -1 }
+		{ "30" }
+	}
+
+	"mp_maxrounds"
+	{
+		"#TF_MaxRounds"
+		{ NUMBER 0 -1 }
+		{ "0" }
+	}
+
+	"mp_teamplay"
+	{
+		"#TF_TeamPlay"
+		{
+			LIST
+			"#TF_Option_MAP" "-1"
+			"#TF_Option_OFF" "0"
+			"#TF_Option_ON" "1"
+		}
+		{ "-1" }
+	}
+
+	"ofd_mutators"
+	{
+		"#TF_Mutators"
+		{
+			LIST
+			"#TF_Option_OFF" "0"
+			"#TF_Instagib" "1"
+			"#TF_InstagibNoMelee" "2"
+			"#TF_ClanArena" "3"
+			"#TF_UnholyTrinity" "4"
+			"#TF_RocketArena" "5"
+			"#TF_GunGame" "6"
+		}
+		{ "0" }
+	}
+
+	"ofd_forceclass"
+	{
+		"#TF_ForceClass"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"ofd_allow_allclass_pickups"
+	{
+		"#TF_AllclassPickups"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"ofd_weaponspawners"
+	{
+		"#TF_WeaponSpawners"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"ofd_powerups"
+	{
+		"#TF_Powerups"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"mp_flashlight"
+	{
+		"#MP_Allow_Flashlight"
+		{ BOOL }
+		{ "0" }
+	}
+
+}
