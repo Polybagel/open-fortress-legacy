@@ -27,7 +27,10 @@ Open Fortress\
 ```
 
 ### IMPORTANT FOR RUNNING THE 2020 VERSION OF THE GAME
-If you want to run the 2020 build of the game, make sure you download the correct commit from the Open-Fortress-Content-Source repo. You can do this by pulling the most up to date commit (which is 5 years too new) and simply use 'git checkout 8608c31' to pull the content from August 3rd, 2020. You may be able to pull newer content from that repo, but I have not tested it.
+In order to pull the correct content for the August 2nd 2020 build of the game, you need to first clone the Content-Source repo using Github Desktop.
+Once cloned, you need to checkout the closest commit, which is from August 3rd 2020 by using this command:
+(`git checkout 8608c31`)
+You may be able to pull newer content from that repo, but I have not tested it.
 
 To run the game, launch the Source SDK Base 2013 Multiplayer tool with the `-game` parameter, pointing out the `game\open_fortress` directory.
 
