@@ -1,0 +1,71 @@
+//
+// Team Fortress - Pyro Player Class
+//
+PlayerClass
+{
+	// Info.
+	"name"				"pyro"
+	"localize_name"		"TF_Class_Name_Pyro"
+	
+	// Models.
+	"model"				"models/player/pyro.mdl"
+	"model_hwm"			"models/player/hwm/pyro.mdl"
+	"arm_model"			"models/weapons/c_models/c_pyro_arms.mdl"
+	"bot_model"			"models/bots/pyro/bot_pyro.mdl"
+	"alt_model"			"models/player/pyro.mdl"
+	"alt_arm_model"		"models/weapons/c_models/c_tfc_pyro_arms.mdl"
+	"tfc_model"			"models/player/tfc/pyro_tfc.mdl"
+	"tfc_arm_model"		"models/weapons/c_models/c_tfc_pyro_arms.mdl"
+	
+	// Stats.
+	"speed_max"			"300"
+	"health_max"		"175"
+	"armor_max"			"0"
+	"tfc_speed_max"		"300"
+	//"tfc_health_max"	"100" //Uncomment this later when armor is implemented
+	"tfc_health_max"	"175"
+	"tfc_armor_max"		"150"
+
+	// Grenades.
+	"grenade1"			"TF_GRENADE_NORMAL"
+	"grenade2"			"TF_GRENADE_NAPALM"
+	"grenade3"			"NONE"
+
+	// Weapons.
+	"weapon1"			"TF_WEAPON_FIREAXE"
+	"weapon2"			"TF_WEAPON_SHOTGUN_PYRO"
+	"weapon3"			"TF_WEAPON_FLAMETHROWER"
+	"weapon4"			"NONE"
+	"weapon5"			"NONE"
+	"weapon6"			"NONE"
+	"weapon7"			"NONE"
+	"weapon8"			"NONE"
+	"weapon9"			"NONE"
+	"tfc_weapon1"		"TFC_WEAPON_CROWBAR"
+	"tfc_weapon2"		"TFC_WEAPON_SHOTGUN_SB"
+	"tfc_weapon3"		"TFC_WEAPON_FLAMETHROWER"
+	"tfc_weapon4"		"TFC_WEAPON_INCENDIARYCANNON"
+	"tfc_weapon5"		"NONE"
+	"tfc_weapon6"		"NONE"
+	"tfc_weapon7"		"NONE"
+	"tfc_weapon8"		"NONE"
+	"tfc_weapon9"		"NONE"
+	
+	// Buildables.
+	"buildable1"		"OBJ_SENTRYGUN"
+	"buildable2"		"OBJ_DISPENSER"
+	"buildable3"		"OBJ_TELEPORTER_ENTRANCE"
+	"buildable4"		"OBJ_TELEPORTER_EXIT"
+
+	// Death Sounds.
+	"sound_death"					"Pyro.Death"
+	"sound_crit_death"				"Pyro.CritDeath"
+	"sound_melee_death"				"Pyro.MeleeDeath"
+	"sound_explosion_death"			"Pyro.ExplosionDeath"
+	
+	// Ammo.
+	AmmoMax
+	{
+		"TF_AMMO_METAL"				"200"
+	}
+}

@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "skate/tarp_01"
+	"$bumpmap"	"skate/tarp_01_norm"
+
+	"$ssbump"		"1"
+	"%keywords" "tf"
+
+}

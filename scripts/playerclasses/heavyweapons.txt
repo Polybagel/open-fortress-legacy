@@ -1,0 +1,71 @@
+//
+// Team Fortress - HeavyWeapons Player Class
+//
+PlayerClass
+{
+	// Info.
+	"name"				"heavyweapons"
+	"localize_name"		"TF_Class_Name_HWGuy"
+	
+	// Models.
+	"model"				"models/player/heavy.mdl"
+	"model_hwm"			"models/player/hwm/heavy.mdl"
+	"arm_model"			"models/weapons/c_models/c_heavy_arms.mdl"
+	"bot_model"			"models/bots/heavy/bot_heavy.mdl"
+	"alt_model"			"models/player/heavy.mdl"
+	"alt_arm_model"		"models/weapons/c_models/c_tfc_heavy_arms.mdl"
+	"tfc_model"			"models/player/tfc/heavy_tfc.mdl"
+	"tfc_arm_model"		"models/weapons/c_models/c_tfc_heavy_arms.mdl"
+	
+	// Stats.
+	"speed_max"			"230"
+	"health_max"		"300"
+	"armor_max"			"0"
+	"tfc_speed_max"		"230"
+	//"tfc_health_max"	"100" //Uncomment this later when armor is implemented
+	"tfc_health_max"	"300"
+	"tfc_armor_max"		"300"
+
+	// Grenades.
+	"grenade1"			"TF_GRENADE_NORMAL"
+	"grenade2"			"TF_GRENADE_MIRV"
+	"grenade3"			"NONE"
+
+	// Weapons.
+	"weapon1"			"TF_WEAPON_FISTS"
+	"weapon2"			"TF_WEAPON_SHOTGUN_HWG"
+	"weapon3"			"TF_WEAPON_MINIGUN"
+	"weapon4"			"NONE"
+	"weapon5"			"NONE"
+	"weapon6"			"NONE"
+	"weapon7"			"NONE"
+	"weapon8"			"NONE"
+	"weapon9"			"NONE"
+	"tfc_weapon1"		"TFC_WEAPON_CROWBAR"
+	"tfc_weapon2"		"TFC_WEAPON_SHOTGUN_SB"
+	"tfc_weapon3"		"TFC_WEAPON_SHOTGUN_DB"
+	"tfc_weapon4"		"TFC_WEAPON_ASSAULTCANNON"
+	"tfc_weapon5"		"NONE"
+	"tfc_weapon6"		"NONE"
+	"tfc_weapon7"		"NONE"
+	"tfc_weapon8"		"NONE"
+	"tfc_weapon9"		"NONE"
+	
+	// Buildables.
+	"buildable1"		"OBJ_SENTRYGUN"
+	"buildable2"		"OBJ_DISPENSER"
+	"buildable3"		"OBJ_TELEPORTER_ENTRANCE"
+	"buildable4"		"OBJ_TELEPORTER_EXIT"
+	
+	// Death Sounds.
+	"sound_death"					"Heavy.Death"
+	"sound_crit_death"				"Heavy.CritDeath"
+	"sound_melee_death"				"Heavy.MeleeDeath"
+	"sound_explosion_death"			"Heavy.ExplosionDeath"
+	
+	// Ammo.
+	AmmoMax
+	{
+		"TF_AMMO_METAL"				"200"
+	}
+}

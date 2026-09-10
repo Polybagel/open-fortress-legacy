@@ -1,0 +1,36 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\w_dynamite\w_dynamite"
+	"$bumpmap" "models/weapons\w_dynamite\w_dynamite_normal"
+
+	"$glowcolor" "1"
+	"$phong" "1"
+//	"$phongexponenttexture" "models\weapons\w_dynamite\w_dynamite_exponent"
+	"$phongexponent" "1"
+//	"$phongboost" "0.35"	
+	"$lightwarptexture" "models\weapons\w_dynamite\w_dynamite_lightwarp"
+	"$phongfresnelranges"	"[2 5 10]"
+	"$halflambert" "1"
+	
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
+		{
+		}
+	}
+}

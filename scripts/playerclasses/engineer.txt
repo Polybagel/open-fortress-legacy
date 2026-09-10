@@ -1,0 +1,71 @@
+//
+// Team Fortress - Engineer Player Class
+//
+PlayerClass
+{
+	// Info.
+	"name"				"engineer"
+	"localize_name"		"TF_Class_Name_Engineer"
+	
+	// Models.
+	"model"				"models/player/engineer.mdl"
+	"model_hwm"			"models/player/hwm/engineer.mdl"
+	"arm_model"			"models/weapons/c_models/c_engineer_arms.mdl"
+	"bot_model"			"models/bots/engineer/bot_engineer.mdl"
+	"alt_model"			"models/player/engineer.mdl"
+	"alt_arm_model"		"models/weapons/c_models/c_tfc_engineer_arms.mdl"
+	"tfc_model"			"models/player/tfc/engineer_tfc.mdl"
+	"tfc_arm_model"		"models/weapons/c_models/c_tfc_engineer_arms.mdl"
+	
+	// Stats.
+	"speed_max"			"300"
+	"health_max"		"125"
+	"armor_max"			"0"
+	"tfc_speed_max"		"300"
+	//"tfc_health_max"	"80" //Uncomment this later when armor is implemented
+	"tfc_health_max"	"125"
+	"tfc_armor_max"		"50"
+
+	// Grenades.
+	"grenade1"			"TF_GRENADE_NORMAL"
+	"grenade2"			"TF_GRENADE_EMP"
+	"grenade3"			"NONE"
+
+	// Weapons.
+	"weapon1"			"TF_WEAPON_PDA_ENGINEER_BUILD"
+	"weapon2"			"TF_WEAPON_PDA_ENGINEER_DESTROY"
+	"weapon3"			"TF_WEAPON_WRENCH"
+	"weapon4"			"TF_WEAPON_PISTOL"
+	"weapon5"			"TF_WEAPON_SHOTGUN_PRIMARY"
+	"weapon6"			"NONE"
+	"weapon7"			"NONE"
+	"weapon8"			"NONE"
+	"weapon9"			"NONE"
+	"tfc_weapon1"		"TF_WEAPON_PDA_ENGINEER_BUILD"   //NEEDED FOR BUILDABLES
+	"tfc_weapon2"		"TF_WEAPON_PDA_ENGINEER_DESTROY" //TO WORK PROPERLY
+	"tfc_weapon3"		"TFC_WEAPON_WRENCH"
+	"tfc_weapon4"		"TFC_WEAPON_RAILPISTOL"
+	"tfc_weapon5"		"TFC_WEAPON_SHOTGUN_DB"
+	"tfc_weapon6"		"NONE"
+	"tfc_weapon7"		"NONE"
+	"tfc_weapon8"		"NONE"
+	"tfc_weapon9"		"NONE"
+	
+	// Buildables.
+	"buildable1"		"OBJ_SENTRYGUN"
+	"buildable2"		"OBJ_DISPENSER"
+	"buildable3"		"OBJ_TELEPORTER_ENTRANCE"
+	"buildable4"		"OBJ_TELEPORTER_EXIT"
+	
+	// Death Sounds.
+	"sound_death"					"Engineer.Death"
+	"sound_crit_death"				"Engineer.CritDeath"
+	"sound_melee_death"				"Engineer.MeleeDeath"
+	"sound_explosion_death"			"Engineer.ExplosionDeath"	
+	
+	// Ammo.
+	AmmoMax
+	{
+		"TF_AMMO_METAL"				"200"
+	}
+}

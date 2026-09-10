@@ -1,0 +1,71 @@
+//
+// Team Fortress - Sniper Player Class
+//
+PlayerClass
+{
+	// Info.
+	"name"				"sniper"
+	"localize_name"		"TF_Class_Name_Sniper"
+	
+	// Models.
+	"model"				"models/player/sniper.mdl"
+	"model_hwm"			"models/player/hwm/sniper.mdl"
+	"arm_model"			"models/weapons/c_models/c_sniper_arms.mdl"
+	"bot_model"			"models/bots/sniper/bot_sniper.mdl"
+	"alt_model"			"models/player/sniper.mdl"
+	"alt_arm_model"		"models/weapons/c_models/c_tfc_sniper_arms.mdl"
+	"tfc_model"			"models/player/tfc/sniper_tfc.mdl"
+	"tfc_arm_model"		"models/weapons/c_models/c_tfc_sniper_arms.mdl"
+	
+	// Stats.
+	"speed_max"			"300"
+	"health_max"		"125"
+	"armor_max"			"0"
+	"tfc_speed_max"		"300"
+	//"tfc_health_max"	"90" //Uncomment this later when armor is implemented
+	"tfc_health_max"	"125"
+	"tfc_armor_max"		"50"
+
+	// Grenades.
+	"grenade1"			"TF_GRENADE_NORMAL"
+	"grenade2"			"TF_GRENADE_FLARE"
+	"grenade3"			"NONE"
+
+	// Weapons.
+	"weapon1"			"TF_WEAPON_CLUB"
+	"weapon2"			"TF_WEAPON_SMG"
+	"weapon3"			"TF_WEAPON_SNIPERRIFLE"
+	"weapon4"			"NONE"
+	"weapon5"			"NONE"
+	"weapon6"			"NONE"
+	"weapon7"			"NONE"
+	"weapon8"			"NONE"
+	"weapon9"			"NONE"
+	"tfc_weapon1"		"TFC_WEAPON_CROWBAR"
+	"tfc_weapon2"		"TFC_WEAPON_SNIPER_RIFLE"
+	"tfc_weapon3"		"TFC_WEAPON_ASSAULT_RIFLE"
+	"tfc_weapon4"		"TFC_WEAPON_NAILGUN"
+	"tfc_weapon5"		"NONE"
+	"tfc_weapon6"		"NONE"
+	"tfc_weapon7"		"NONE"
+	"tfc_weapon8"		"NONE"
+	"tfc_weapon9"		"NONE"
+	
+	// Buildables.
+	"buildable1"		"OBJ_SENTRYGUN"
+	"buildable2"		"OBJ_DISPENSER"
+	"buildable3"		"OBJ_TELEPORTER_ENTRANCE"
+	"buildable4"		"OBJ_TELEPORTER_EXIT"
+	
+	// Death Sounds.
+	"sound_death"					"Sniper.Death"
+	"sound_crit_death"				"Sniper.CritDeath"
+	"sound_melee_death"				"Sniper.MeleeDeath"
+	"sound_explosion_death"			"Sniper.ExplosionDeath"
+	
+	// Ammo.
+	AmmoMax
+	{
+		"TF_AMMO_METAL"				"200"
+	}
+}

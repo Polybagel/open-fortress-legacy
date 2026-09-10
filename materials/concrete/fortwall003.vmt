@@ -1,0 +1,12 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"concrete/fortwall003"
+	"$bumpmap" "Concrete/fortwall001_height-ssbump"
+        "$ssbump" "1"
+	"%keywords" "tf, frontline"
+	"$detail" "overlays/detail001"
+	"$detailscale" "1.9"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+	"$surfaceprop" "rock"
+}

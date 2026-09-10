@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+<<<<<<< HEAD
+	"$basetexture" "models/props_doomsday/barrel_crate_doomsday"
+=======
+	"$baseTexture" "models\props_doomsday/barrel_crate_doomsday"
+>>>>>>> 50ac68023238b952e3c1165bcc43f43b3d1de622
+}

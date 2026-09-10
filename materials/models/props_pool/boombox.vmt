@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_pool/boombox"
+    "$halflambert" "1"
+
+	"$phong" "1"
+	"$phongexponent" "100"
+	"$phongboost" "2"
+	"$phongfresnelranges" "[.25 .5 1]"
+                "$basemapalphaphongmask" "1"
+}

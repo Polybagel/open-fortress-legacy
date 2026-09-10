@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+   "$basetexture" "props/monitor_world_red_anim"
+   "$nolod" 		1
+   "$selfillum"		1
+   "$surfaceprop" "glass"
+   "Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+         "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" "1"
+      }
+   }
+}

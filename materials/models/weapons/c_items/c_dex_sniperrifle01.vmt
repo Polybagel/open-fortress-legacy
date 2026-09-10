@@ -1,0 +1,43 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\c_items\c_dex_sniperrifle01"
+	
+	"$glowcolor" "1"
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".45"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[2.25 2.5 20]"
+	"$halflambert" "1"
+
+	"$basemapalphaphongmask" "1"
+	
+	// Rim lighting parameters
+	"$rimlight" "1"					
+	"$rimlightexponent" "4"		
+	"$rimlightboost" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
+		{
+		}
+	}
+}

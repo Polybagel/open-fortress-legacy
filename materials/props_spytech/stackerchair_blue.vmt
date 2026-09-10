@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+// File Created by Wall Worm ( http://dev.wallworm.com )
+	// Get Wall Worm Pro to remove this comment ( https://wallworm.com/store/index.php?route=product/product&product_id=54 )
+
+// BEGIN Textures
+	$basetexture "models/props_spytech/stackerchair_blue"
+	$phongexponenttexture "models/props_spytech/stackerchair_exp"
+// END Textures
+
+
+	"$surfaceprop" "metal"
+
+// BEGIN Phong
+	"$phong" 1
+	"$phongboost" "1.0"
+	"$phongexponent" "5"
+	"$phongfresnelranges" "[2.0 1.0 0.8]"
+// END Phong
+
+
+}
