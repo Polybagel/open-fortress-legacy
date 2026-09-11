@@ -18,6 +18,8 @@ Create any folder at first (preferrably name it `Open Fortress` or something ide
 
 should be cloned inside the first folder you've created. Your directory should look like this:
 
+*Note that the Open-Fortress-Content-Source and Open-Fortress-Source folders are NOT required to launch the game, but they are required if you want to recompile from source or make modifications to the content.*
+
 ```
 Open Fortress\
     └ game\
@@ -26,13 +28,13 @@ Open Fortress\
     └ Open-Fortress-Source\
 ```
 
-### IMPORTANT FOR RUNNING THE 2020 VERSION OF THE GAME
+### IMPORTANT FOR MODIFYING THE 2020 VERSION OF THE GAME
 In order to pull the correct content for the August 2nd 2020 build of the game, you need to first clone the Content-Source repo using Github Desktop.
 Once cloned, you need to checkout the closest commit, which is from August 3rd 2020 by using this command:
 ```
 git checkout 8608c31
 ```
-You may be able to pull newer content from that repo, but I have not tested it.
+You can technically pull any commit from the repo, but this is the closest one that matches the build of the game.
 
 To run the game, launch the Source SDK Base 2013 Multiplayer tool with the `-game` parameter, pointing out the `game\open_fortress` directory.
 
