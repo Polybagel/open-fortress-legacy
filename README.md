@@ -40,7 +40,7 @@ You can technically pull any commit from the repo, but this is the closest one t
 
 To run the game, launch the Source SDK Base 2013 Multiplayer tool with the `-game` parameter, pointing out the `game\open_fortress` directory.
 
-## Licensing (OLD, I DID NOT WRITE THIS)
+## Licensing
 
 The [source code](https://github.com/KaidemonLP/Open-Fortress-Source) is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License and the Source 1 SDK License.
 
