@@ -13,6 +13,7 @@ To properly download and play this, you must use the GitHub desktop app (or alte
 ### Developers
 
 Create any folder at first (preferrably name it `Open Fortress` or something identifiable) and inside of it, create another one called `game`. This repository should be cloned inside the `game` folder and all other repositories: 
+
 [Open-Fortress-Source-Legacy](https://github.com/Polybagel/Open-Fortress-Source-Legacy) OR [CommunityUS-Branch-Open-Fortress-Source](https://github.com/communityus-branch/Open-Fortress-Source)
 
 [Open-Fortress-Content-Source](https://github.com/KaidemonLP/Open-Fortress-Content-Source) OR [Open-Fortress-Content-Source-Legacy](https://github.com/Polybagel/Open-Fortress-Content-Source-Legacy)
